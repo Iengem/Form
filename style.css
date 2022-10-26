@@ -1,0 +1,251 @@
+@import url('http://fonts.cdnfonts.com/css/inter');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: rgb(148,140,117);
+}
+.formcont{
+    background-color: rgb(239,238,234);
+    height: 315vh;
+    width: 60vw;
+    margin: 10px auto;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.formcontent{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+.formh{
+    margin-bottom: 100px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    padding-bottom: 20px;
+}
+.formh h1{
+    font-size: 32px;
+    line-height: 46.4px;
+    font-weight: 600;
+    text-align: center;
+}
+.firstsec{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.firstsec label{
+    font-size: 16px;
+    font-weight: 700;
+}
+.bars input{
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid rgb(184,189,201);
+}
+.bars{
+    display: flex;
+    gap: 40px;
+}
+.smallnames{
+    display: flex;
+    gap: 265px;
+}
+.smallnames p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.addressbar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.addressbar1{
+    display: flex;
+    gap: 40px;
+}
+.addressbar1 .city input{
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid rgb(184,189,201);
+    width: 300px;
+}
+.city{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.addresssub{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.firstsec:nth-child(2) input{
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid rgb(184,189,201);
+}
+.firstsec:nth-child(3) input{
+    width: 300px;
+    padding: 10px 20px;
+    border: 1px solid rgb(184,189,201);
+    border-radius: 3px;
+    font-size: 14px;
+}
+.firstsec:nth-child(4) input{
+    width: 300px;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1px solid rgb(184,189,201);
+    border-radius: 3px;
+}
+.firstsec:nth-child(5) input{
+    width: 300px;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1px solid rgb(184,189,201);
+    border-radius: 3px;
+}
+.firstsec:nth-child(6){
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.smallnames1{
+    display: flex;
+    gap: 314px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.smallnames1 p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(93,70, 35);
+}
+.check{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.checknames{
+    display: flex;
+    gap: 230px;
+}
+.checknames1{
+    display: flex;
+    gap: 250px;
+}
+.guests{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.guests input{
+    width: 300px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 14px;
+    border: 1px solid rgb(184,189,201);
+    border-radius: 3px;
+}
+.bookingcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bars select{
+    width: 300px;
+    padding: 10px 40px;
+    font-size: 14px;
+    border-radius: 3px;
+    color: rgb(184,189,201);
+    border-color: rgb(184,189,201);
+    outline: none;
+}
+.bars select option{
+    border-color: 1px solid rgb(231, 231, 231);
+    color: rgb(184,189,201);
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.radio1 label{
+    font-size: 14px;
+    font-weight: 400;
+}
+.radio2 label{
+    font-size: 14px;
+    font-weight: 400;
+}
+.radio label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.guests label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.checknames1 label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.checknames label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.notes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.notes label{
+    font-size: 16px;
+    font-weight: 500;   
+}
+.notes input{
+    padding: 50px;
+    border: 1px solid rgb(184,189,201);
+    border-radius: 3px;
+}
+.last p{
+    width: 600px;
+    color: rgb(56, 42, 21);
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.last button{
+    background-color: rgb(24,189,91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 100px;
+    font-weight: 500;
+    width: 300px;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    width: 100px;
+    margin-left: 260px;
+    border: none;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Guest Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formcont">
+        <div class="formcontent">
+        <div class="formh">
+            <h1>Hotel Guest Registration Form</h1>
+        </div>
+        <form action="">
+            <div class="firstsec">
+                <label for="firstname">Name</label>
+                <div class="bars">
+                    <input id="firstname" type="text">
+                    <input type="text">
+                </div>
+                <div class="smallnames">
+                    <p>First Name</p>
+                    <p>Last Name</p>
+                </div>
+            </div>
+            <div class="firstsec">
+                <label for="firstname">Address</label>
+                <div class="addresssub">
+                    <div class="addressbar">
+                        <input type="text">
+                        <div class="smallnames">
+                            <p>Street Address</p>
+                        </div>
+                    </div>
+                    <div class="addressbar">
+                        <input type="text">
+                        <div class="smallnames">
+                            <p>Street Address Line 2</p>
+                        </div>
+                    </div>
+                    <div class="addressbar1">
+                        <div class="city">
+                            <input type="text">
+                            <div class="smallnames">
+                                <p>City</p>
+                            </div>
+                        </div>
+                        <div class="city">
+                            <input type="text">
+                            <div class="smallnames">
+                                <p>State / Province</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="addressbar">
+                        <input type="text">
+                        <div class="smallnames">
+                            <p>Postal / Zip Code</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="firstsec">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <div class="smallnames">
+                    <p>example@example.com</p>
+                </div>
+            </div>
+            <div class="firstsec">
+                <label for="num">Mobile Number</label>
+                <input type="text" placeholder="(000) 000-0000">
+            </div>
+            <div class="firstsec">
+                <label for="num">Home Phone Number</label>
+                <input type="text" placeholder="(000) 000-0000">
+            </div>
+            <div class="firstsec">
+                <label for="num">Booking Information</label>
+                <div class="bookingcontent">
+                    <div class="check">
+                        <div class="checknames">
+                            <label for="checkin">Check-in Date</label>
+                            <label for="checkout">Check-out Date</label>
+                        </div>
+                        <div class="bars">
+                            <input id="checkin" type="datetime" placeholder="MM-DD-YYYY">
+                            <input type="datetime" id="checkout" placeholder="MM-DD-YYYY">
+                        </div>
+                        <div class="smallnames1">
+                            <p>Date</p>
+                            <p>Date</p>
+                        </div>
+                    </div>
+                    <div class="guests">
+                        <label for="guest" class="lab">Number of Guests in Room</label>
+                        <input id='guest'type="text" placeholder="ex: 23">
+                    </div>
+                    <div class="guests">
+                        <label for="night" hidden>Nights</label>
+                        <input type="text" id="'night" hidden>
+                    </div>
+                    <div class="check">
+                        <div class="checknames1">
+                            <label for="checkin">Room Type</label>
+                            <label for="checkout">Smoking Room</label>
+                        </div>
+                        <div class="bars">
+                            <select name="" id="">
+                            <option value=""  selected>Please Select</option>
+                            <option value="">Single($100)</option>
+                            <option value="">Double($100)</option>
+                            <option value="">Queen($200)</option>
+                            <option value="">King($210)</option>
+                            <option value="">2-Bedroom($350)</option>
+                            <option value="">Suite($500)</option>
+                        </select>
+                            <select name="" id="">
+                            <option value="" selected>Please Select</option>
+                            <option value="">Yes</option>
+                            <option value="">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="radio">
+                        <label class="lab">Lease Pocket Wifi($5)</label>
+                        <div class="radio1">
+                            <input type="radio" id="rad">
+                            <label for="rad">Yes</label>
+                        </div>
+                        <div class="radio2">
+                            <input type="radio" id="rad1">
+                            <label for="rad1">No</label>
+                        </div>
+                    </div>
+                    <div class="radio">
+                        <label class="lab">Free Shuttle Service</label>
+                        <div class="radio1">
+                            <input type="radio" id="rad3">
+                            <label for="rad3">Yes</label>
+                        </div>
+                        <div class="radio2">
+                            <input type="radio" id="rad4">
+                            <label for="rad4">No</label>
+                        </div>
+                    </div>
+                    <div class="guests">
+                        <label for="amou" class="lab">Total Amount</label>
+                        <input type="text" id="amou" placeholder="$0">
+                    </div>
+                    <div class="notes">
+                        <label for="not">Notes/Special requirements</label>
+                        <input type="not">
+                    </div>
+                    <div class="last">
+                        <p>The submission of this form makes a reservation for the type of room selected in the form. Any changes prior the scheduled occupancy should be communicated to us at least 24 hours prior, which may be subject to availability of request.Check-in time shall be at 2:00PM and checkout time shall be at 12:00NN.</p>
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
